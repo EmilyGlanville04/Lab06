@@ -12,3 +12,9 @@ class Model:
 
     def getAllRetail(self):
         return DAO.getAllRetail()
+
+    def getTopVendite(self, anno, brand, r_code):
+        return DAO.getTopVendite(anno, brand, r_code)
+
+    def getStatsVendite(self, anno, brand, r_code):
+        return DAO.getStatsVendite(anno,brand, r_code)
